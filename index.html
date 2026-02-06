@@ -1,10 +1,37 @@
 <html>
     <head>
         <title>Tim's Home Page</title>
+        <style>
+            .sectionWrapper{
+                color: blue;
+                border: 1px;
+                border-style: dotted;
+                padding: 8px;
+            }
+            .sectionWrapper h1{
+                font-size: 24px;
+            }
+            .sectionWrapper .body{
+            color: black;
+            }
+        </style>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
-        Hello World! 
+       <section style="color: purple;font-size: 24px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; padding:8px; border: 1px; border-color: black; border-style: double; background-color: bisque;">
+        <div style="font-size: 36px; font-weight: bold; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: black;">Here's my title</div>
+        <div style="font-size: 14; color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reiciendis veritatis dolores in, sapiente nihil. Nam error expedita illo nostrum iure. Eius nobis cumque in possimus cupiditate earum perspiciatis omnis?</div>
+       </section>
 
-        Toyota Corollas fair
+       <hr> 
+       <section class="sectionWrapper">
+        <h1>Title</h1>
+        <div class="body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa rem at minima asperiores quod quis similique adipisci maxime provident est aliquid esse recusandae expedita, itaque laborum temporibus? Architecto, commodi similique?</div>
+       </section>
+       <hr>
+       <section class="sectionWrapper2">
+        <h1>Title Here</h1>
+        <div class="body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et ex accusamus excepturi voluptatum eaque, neque asperiores beatae harum unde corrupti nihil dolores aliquid architecto deserunt minus commodi, maxime suscipit eius.</div>
+       </section>
     </body>
 </html>
