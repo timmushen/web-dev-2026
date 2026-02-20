@@ -1,0 +1,42 @@
+<html>
+    <head>
+         <script src="https://cdn.tailwindcss.com"></script>
+         <style>
+            .box{
+                @apply bg-black text-white;
+            }
+         </style>
+    </head>
+    <body class="p-4">
+        <section>
+            <h2>Basic Flex</h2>
+            <div class="flex flex-col md:flex-row justify-between gap-3">
+                <div class="bg-lime-500 flex-1">1</div>
+                <div class="bg-violet-500 flex-1">2</div>
+                <div class="bg-sky-500 flex-1">3</div>
+            </div>
+        </section>
+        <section>
+            <h2>Reverse</h2>
+            <div class="flex flex-col md:flex-row-reverse justify-between gap-3">
+                <div class="bg-neutral-300 md:flex-none md:w-56">1</div>
+                <div class="bg-neutral-200 flex-1">2</div>
+                <div class="bg-neutral-100 flex-1">3</div>
+            </div>
+        </section>
+
+
+
+<section class="flex flex-row h-1/2 w-full justify-start items-end bg-[url('https://images.pexels.com/photos/732547/pexels-photo-732547.jpeg')] bg-cover rounded-xl pb-6">
+<div class="bg-lime-900/60 flex-1 p-2 text-lg font-semibold text-lime-200 flex flex-row justify-center items-center"><svg aria-hidden="true" class="swoosh-svg pt-1" focusable="false" viewBox="0 0 24 24" role="img" width="24px" height="24px" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M21 8.719L7.836 14.303C6.74 14.768 5.818 15 5.075 15c-.836 0-1.445-.295-1.819-.884-.485-.76-.273-1.982.559-3.272.494-.754 1.122-1.446 1.734-2.108-.144.234-1.415 2.349-.025 3.345.275.2.666.298 1.147.298.386 0 .829-.063 1.316-.19L21 8.719z" clip-rule="evenodd"></path></svg>You Are Here</div>
+
+</section>
+
+<section class="flex flex-col sm:flex-row w-[500px] gap-4 mx-auto ">
+    <div>Navigation</div>
+    <div class="flex-grow max-w-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum illo amet pariatur neque ea minima iusto, laudantium qui voluptatum quos vero esse inventore aspernatur nobis, commodi sint perferendis exercitationem animi.</div>
+    <div>Banner Ad</div>
+</section>
+
+    </body>
+</html>
